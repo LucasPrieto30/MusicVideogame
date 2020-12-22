@@ -18,6 +18,8 @@ def main():
         pygame.init()
         #pygame.mixer.init()
 
+        
+
         #Preparar la ventana
         pygame.display.set_caption("Cancionero")
         icon = pygame.image.load("icono.jpg")
