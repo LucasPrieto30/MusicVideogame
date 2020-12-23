@@ -66,9 +66,8 @@ def dameLetraApretada(key):
 
 def dibujar(screen, palabraUsuario, lista, puntos, segundos, ayuda):
     #PONE IMAGEN DE FONDO
-    fondo=pygame.image.load("LilpeepROSA.jpg").convert()
+    fondo=pygame.image.load("LilpeepROSA1.jpg").convert()
     screen.blit(fondo,[0,0])
-    
     defaultFont= pygame.font.Font( "Montserrat-Italic.ttf", TAMANNO_LETRA)
     defaultFontGrande= pygame.font.Font( "Montserrat-Italic.ttf", TAMANNO_LETRA_GRANDE)
 
