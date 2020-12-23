@@ -66,7 +66,6 @@ def dameLetraApretada(key):
 
 def dibujar(screen, palabraUsuario, lista, puntos, segundos, ayuda):
     #PONE IMAGEN DE FONDO
-
     fondo=pygame.image.load("LilpeepROSA1.jpg").convert()
 
     screen.blit(fondo,[0,0])
